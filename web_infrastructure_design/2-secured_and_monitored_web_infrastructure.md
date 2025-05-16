@@ -1,13 +1,17 @@
-# Simple Web Stack
-![Exercice 0](Diagram/Exercice%200.png)
+Secured and monitored web infrastructure
+![Exercice 2](Diagram/Exercice%202.png)
 **User Request**: A user accesses the internet and sends a request to reach a web application.
 
 **DNS Resolution**: The domain is translated into an IP address via the DNS system.
+
+**Load Balancers (HAProxy)**: The request passes through two load balancers, which distribute traffic to prevent overload and improve availability.
+
+**Firewall and SSL Encryption**: Firewalls filter traffic and SSL encryption secures communication between the user and the servers.
 
 **Web Servers (Nginx)**: The request reaches Nginx web servers, which handle static and dynamic content.
 
 **Application Servers**: The request is processed by the application, executing necessary operations.
 
-**Databases (MySQL)**: If data is needed, the request is sent to MySQL database, protected by a firewall and secured with SSL.
+**Databases (MySQL)**: If data is needed, the request is sent to a MySQL database, protected by a firewall and secured with SSL.
 
 **Response to the User**: The processed data is sent back to the user through the same optimized and secure system.

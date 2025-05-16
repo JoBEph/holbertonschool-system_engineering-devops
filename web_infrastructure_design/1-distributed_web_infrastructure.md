@@ -1,8 +1,10 @@
-# Simple Web Stack
-![Exercice 0](Diagram/Exercice%200.png)
+# Distributed Web Infrastructure
+![Exercice 1](Diagram/Exercice%201.png)
 **User Request**: A user accesses the internet and sends a request to reach a web application.
 
 **DNS Resolution**: The domain is translated into an IP address via the DNS system.
+
+**Load Balancers (HAProxy)**: The request passes through two load balancers, which distribute traffic to prevent overload and improve availability.
 
 **Web Servers (Nginx)**: The request reaches Nginx web servers, which handle static and dynamic content.
 
