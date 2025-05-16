@@ -1,4 +1,3 @@
-Scale up
 ![Exercice 3](Diagram/Exercice%203.png)
 
   **User Request**: The process begins when a user sends a request to access a website (`www.foobar.com`).
