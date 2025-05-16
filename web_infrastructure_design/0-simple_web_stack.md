@@ -1,6 +1,7 @@
-# Simple Web Stack
 ![Exercice 0](Diagram/Exercice%200.png)
-**User Request**: A user accesses the internet and sends a request to reach a web application.
+
+
+ **User Request**: The process begins when a user sends a request to access a website (`www.foobar.com`).
 
 **DNS Resolution**: The domain is translated into an IP address via the DNS system.
 
